@@ -13,9 +13,12 @@ do
     fi
     i=`expr $i + 1 `
 done
-if [ $c -eq 1 ]
+if [ $num -eq 0 ]
+    then
+       echo " 0 is neither Prime nor Composite Number"
+elif [ $c -eq 1 ]
 then
-    printf "$num is Not Prime.\n"
+    printf "$num is Composite Number.\n"
 else
-    printf "$num is Prime.\n" 
+    printf "$num is Prime Number.\n" 
 fi
