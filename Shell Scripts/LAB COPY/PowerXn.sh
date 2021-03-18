@@ -10,7 +10,7 @@ S=1
 
 while [ $n -ne $c ]
 do
-    S=`expr $S \* $n`
+    S=`expr $S \* $x`
     c=`expr $c + 1`
 done
 
